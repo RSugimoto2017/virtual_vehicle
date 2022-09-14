@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	<vehicle id="3BEtoDE.0" type="passenger2b" depart="0.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.0" type="passenger5" depart="0.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.0" type="passenger2a" depart="2.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.0" type="passenger1" depart="5.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.1" type="passenger2a" depart="6.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.1" type="passenger1" depart="7.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.0" type="passenger1" depart="7.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.0" type="passenger2b" depart="9.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.1" type="passenger1" depart="11.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.0" type="passenger1" depart="11.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.0" type="passenger1" depart="15.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.1" type="passenger2a" depart="16.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.2" type="passenger3" depart="19.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.0" type="passenger3" depart="19.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.0" type="passenger2a" depart="22.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.1" type="passenger1" depart="23.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.3" type="passenger3" depart="25.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.0" type="passenger1" depart="25.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.4" type="passenger5" depart="26.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.1" type="passenger2b" depart="30.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.0" type="passenger5" depart="34.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.2" type="passenger1" depart="36.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.1" type="passenger1" depart="38.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.1" type="passenger1" depart="39.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.2" type="passenger1" depart="41.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.3" type="passenger1" depart="44.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.2" type="passenger1" depart="47.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.2" type="passenger2b" depart="49.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.1" type="passenger1" depart="51.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.3" type="passenger1" depart="56.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.2" type="passenger1" depart="58.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.5" type="passenger2b" depart="59.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.2" type="passenger1" depart="62.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.2" type="passenger1" depart="64.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.6" type="passenger5" depart="65.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.3" type="passenger1" depart="68.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.1" type="passenger3" depart="72.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.1" type="passenger2a" depart="73.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.3" type="passenger1" depart="75.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.2" type="passenger5" depart="76.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.3" type="passenger1" depart="80.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.2" type="passenger3" depart="86.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.2" type="passenger4" depart="87.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.3" type="passenger4" depart="90.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.7" type="passenger2a" depart="91.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.3" type="passenger4" depart="93.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.4" type="passenger2a" depart="96.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.4" type="passenger1" depart="100.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.4" type="passenger2a" depart="102.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.5" type="passenger2b" depart="108.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.3" type="passenger1" depart="110.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.3" type="passenger1" depart="113.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.4" type="passenger2a" depart="114.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.5" type="passenger1" depart="115.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.4" type="passenger4" depart="116.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.6" type="passenger4" depart="121.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.1" type="passenger1" depart="122.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.7" type="passenger1" depart="124.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.6" type="passenger2b" depart="125.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.4" type="passenger3" depart="126.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.4" type="passenger3" depart="126.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.4" type="passenger1" depart="129.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.4" type="passenger2b" depart="131.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.3" type="passenger5" depart="133.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.5" type="passenger1" depart="137.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.8" type="passenger1" depart="139.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.5" type="passenger5" depart="139.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.5" type="passenger1" depart="139.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.5" type="passenger2b" depart="141.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.6" type="passenger1" depart="144.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.5" type="passenger1" depart="145.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.5" type="passenger1" depart="146.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.7" type="passenger1" depart="147.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.8" type="passenger2b" depart="150.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.7" type="passenger1" depart="154.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.6" type="passenger2a" depart="154.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.9" type="passenger2b" depart="158.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.10" type="passenger3" depart="160.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.8" type="passenger1" depart="161.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.11" type="passenger1" depart="164.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.4" type="passenger5" depart="166.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.12" type="passenger2b" depart="167.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.9" type="passenger2b" depart="168.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.6" type="passenger2b" depart="169.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.9" type="passenger2b" depart="170.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.13" type="passenger1" depart="172.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.14" type="passenger3" depart="174.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.7" type="passenger2a" depart="175.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.5" type="passenger1" depart="176.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.15" type="passenger3" depart="178.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.16" type="passenger2a" depart="185.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.6" type="passenger2b" depart="186.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.7" type="passenger2a" depart="189.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.6" type="passenger2a" depart="193.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.7" type="passenger1" depart="195.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.8" type="passenger3" depart="198.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.7" type="passenger1" depart="199.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.10" type="passenger2b" depart="203.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.11" type="passenger4" depart="204.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.2" type="passenger1" depart="206.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.8" type="passenger1" depart="206.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.8" type="passenger1" depart="208.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.9" type="passenger2a" depart="210.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.12" type="passenger2a" depart="214.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.9" type="passenger1" depart="217.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.5" type="passenger3" depart="223.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.17" type="passenger2b" depart="228.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.6" type="passenger2b" depart="228.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.6" type="passenger1" depart="229.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.7" type="passenger2b" depart="232.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.8" type="passenger3" depart="235.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.7" type="passenger2b" depart="236.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.8" type="passenger1" depart="241.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.10" type="passenger1" depart="242.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.9" type="passenger1" depart="242.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.9" type="passenger2b" depart="247.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.8" type="passenger1" depart="248.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.11" type="passenger1" depart="249.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.9" type="passenger2b" depart="252.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.10" type="passenger4" depart="254.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.10" type="passenger1" depart="254.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.10" type="passenger2a" depart="255.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.12" type="passenger4" depart="257.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.13" type="passenger1" depart="260.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.6" type="passenger5" depart="262.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.18" type="passenger2b" depart="263.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.10" type="passenger2a" depart="263.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.7" type="passenger3" depart="263.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.11" type="passenger2b" depart="265.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.11" type="passenger3" depart="265.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.19" type="passenger2a" depart="269.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.9" type="passenger5" depart="269.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.10" type="passenger2a" depart="270.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.8" type="passenger2a" depart="281.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.13" type="passenger1" depart="282.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.14" type="passenger2a" depart="283.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.11" type="passenger1" depart="283.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.20" type="passenger1" depart="284.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.12" type="passenger2a" depart="293.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.3" type="passenger1" depart="297.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.13" type="passenger1" depart="301.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.14" type="passenger1" depart="303.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.15" type="passenger2b" depart="306.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.12" type="passenger1" depart="307.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.4" type="passenger4" depart="308.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.16" type="passenger1" depart="315.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.21" type="passenger2b" depart="316.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.5" type="passenger1" depart="316.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.11" type="passenger2a" depart="320.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.15" type="passenger3" depart="322.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.9" type="passenger1" depart="324.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.17" type="passenger1" depart="324.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.18" type="passenger2a" depart="336.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.13" type="passenger1" depart="338.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.10" type="passenger1" depart="339.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.22" type="passenger2b" depart="340.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.6" type="passenger1" depart="343.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.11" type="passenger1" depart="349.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.14" type="passenger2b" depart="349.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.14" type="passenger1" depart="350.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.12" type="passenger2b" depart="350.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.7" type="passenger2a" depart="350.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.12" type="passenger2a" depart="352.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.11" type="passenger4" depart="354.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.8" type="passenger3" depart="355.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.15" type="passenger2a" depart="356.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.9" type="passenger1" depart="356.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.12" type="passenger1" depart="357.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.8" type="passenger2b" depart="362.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.12" type="passenger1" depart="364.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.19" type="passenger1" depart="372.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.13" type="passenger3" depart="373.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.16" type="passenger1" depart="373.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.13" type="passenger1" depart="375.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.14" type="passenger1" depart="377.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.10" type="passenger2b" depart="377.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.15" type="passenger1" depart="378.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.16" type="passenger1" depart="383.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.11" type="passenger1" depart="384.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.9" type="passenger2a" depart="387.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.17" type="passenger3" depart="388.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.13" type="passenger2a" depart="396.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.20" type="passenger1" depart="399.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.14" type="passenger1" depart="400.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.14" type="passenger2a" depart="401.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.16" type="passenger3" depart="407.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.21" type="passenger1" depart="407.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.15" type="passenger3" depart="408.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.22" type="passenger1" depart="410.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.18" type="passenger2a" depart="411.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.15" type="passenger2a" depart="413.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.13" type="passenger1" depart="414.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.23" type="passenger2a" depart="419.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.24" type="passenger2b" depart="420.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.23" type="passenger2a" depart="421.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.17" type="passenger2a" depart="422.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.16" type="passenger1" depart="427.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.17" type="passenger2a" depart="431.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.17" type="passenger1" depart="431.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.18" type="passenger1" depart="432.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.16" type="passenger1" depart="432.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.10" type="passenger5" depart="433.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.19" type="passenger2b" depart="434.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.18" type="passenger2a" depart="436.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.14" type="passenger3" depart="439.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.12" type="passenger1" depart="439.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.10" type="passenger1" depart="444.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.19" type="passenger1" depart="448.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.24" type="passenger1" depart="449.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.13" type="passenger1" depart="450.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.25" type="passenger1" depart="453.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.15" type="passenger2b" depart="453.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.14" type="passenger1" depart="453.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.25" type="passenger2b" depart="453.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.15" type="passenger1" depart="453.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.18" type="passenger2a" depart="453.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.26" type="passenger5" depart="455.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.26" type="passenger2b" depart="455.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.11" type="passenger1" depart="458.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.27" type="passenger1" depart="458.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.17" type="passenger1" depart="459.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.16" type="passenger2a" depart="459.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.15" type="passenger2a" depart="462.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.19" type="passenger1" depart="462.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.12" type="passenger2b" depart="464.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.16" type="passenger1" depart="464.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.13" type="passenger5" depart="467.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.14" type="passenger5" depart="468.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.11" type="passenger2a" depart="468.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.15" type="passenger1" depart="470.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.18" type="passenger1" depart="470.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.17" type="passenger1" depart="470.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.28" type="passenger2a" depart="471.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.19" type="passenger1" depart="475.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.16" type="passenger2a" depart="476.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.18" type="passenger1" depart="476.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.19" type="passenger1" depart="477.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.20" type="passenger3" depart="477.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.20" type="passenger1" depart="479.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.27" type="passenger2b" depart="481.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.12" type="passenger2b" depart="481.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.20" type="passenger1" depart="482.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.17" type="passenger2a" depart="484.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.21" type="passenger2a" depart="484.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.29" type="passenger1" depart="486.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.20" type="passenger2b" depart="487.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.21" type="passenger1" depart="487.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.19" type="passenger1" depart="489.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.13" type="passenger2b" depart="491.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.17" type="passenger1" depart="495.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.18" type="passenger1" depart="498.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.20" type="passenger2a" depart="499.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.18" type="passenger2b" depart="500.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.14" type="passenger1" depart="501.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.19" type="passenger1" depart="504.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.16" type="passenger1" depart="506.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.22" type="passenger1" depart="506.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.20" type="passenger1" depart="507.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.21" type="passenger2a" depart="508.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.17" type="passenger2a" depart="511.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.19" type="passenger1" depart="513.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.20" type="passenger2b" depart="517.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.18" type="passenger1" depart="518.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.21" type="passenger2a" depart="519.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.19" type="passenger2b" depart="519.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.22" type="passenger1" depart="521.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.21" type="passenger5" depart="522.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.23" type="passenger1" depart="523.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.28" type="passenger1" depart="525.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.24" type="passenger1" depart="527.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.25" type="passenger2b" depart="529.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.26" type="passenger2b" depart="530.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.22" type="passenger2a" depart="530.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.30" type="passenger1" depart="531.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.27" type="passenger2b" depart="534.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.20" type="passenger2a" depart="534.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.21" type="passenger2a" depart="536.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.23" type="passenger2b" depart="540.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.24" type="passenger4" depart="542.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.31" type="passenger1" depart="542.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.32" type="passenger1" depart="545.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.21" type="passenger1" depart="546.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.15" type="passenger2b" depart="546.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.22" type="passenger1" depart="548.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.22" type="passenger1" depart="551.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.29" type="passenger3" depart="552.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3LUtoFR.21" type="passenger2b" depart="553.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.25" type="passenger1" depart="554.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.23" type="passenger1" depart="555.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoLU.23" type="passenger2b" depart="555.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31828 -32400#4-AddedOnRampEdge -32400#4 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3FRtoBE.26" type="passenger1" depart="555.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -32554 -32372#2 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.33" type="passenger2b" depart="556.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.30" type="passenger4" depart="557.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.20" type="passenger1" depart="562.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.21" type="passenger2a" depart="565.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.22" type="passenger2b" depart="566.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.24" type="passenger2b" depart="569.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3LUtoDE.23" type="passenger1" depart="569.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31268#1 -31268#2 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.31" type="passenger1" depart="573.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3DEtoBE.22" type="passenger2b" depart="576.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.34" type="passenger1" depart="577.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.28" type="passenger2b" depart="578.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.16" type="passenger2a" depart="581.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.35" type="passenger1" depart="582.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3LUtoBE.17" type="passenger3" depart="584.00" departSpeed="13.89">
+		<route edges="-30706#0 -30706#0-AddedOffRampEdge -31268#0 -31840#0 -31840#1 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -31622#9 -31622#10-AddedOnRampEdge -31622#10 -31622#10-AddedOffRampEdge -31622#11 -31622#12-AddedOnRampEdge -31622#12 -31622#12-AddedOffRampEdge -31622#13 -31622#14-AddedOnRampEdge -31622#14 -31622#14-AddedOffRampEdge -31622#15 -31622#16-AddedOnRampEdge -31622#16"/>
+	</vehicle>
+	<vehicle id="3FRtoLU.36" type="passenger3" depart="586.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.25" type="passenger4" depart="588.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoDE.32" type="passenger1" depart="590.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.26" type="passenger1" depart="593.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3DEtoFR.22" type="passenger2a" depart="593.00" departSpeed="13.89">
+		<route edges="-31622#0 -31622#0-AddedOffRampEdge -31622#1 -31622#2-AddedOnRampEdge -31622#2 -31622#2-AddedOffRampEdge -31622#3 -31622#4-AddedOnRampEdge -31622#4 -31622#4-AddedOffRampEdge -31622#5 -31622#5-AddedOffRampEdge -31622#6 -31622#7-AddedOnRampEdge -31622#7 -31622#7-AddedOffRampEdge -31622#8 -31622#8-AddedOffRampEdge -30482 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3BEtoFR.27" type="passenger1" depart="595.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30440 -31366#0-AddedOnRampEdge -31366#0 -31366#1-AddedOnRampEdge -31366#1 -31366#1-AddedOffRampEdge -31366#2 -31366#3-AddedOnRampEdge -31366#3"/>
+	</vehicle>
+	<vehicle id="3FRtoDE.23" type="passenger2b" depart="595.00" departSpeed="13.89">
+		<route edges="-32426#0 -32426#0-AddedOffRampEdge -32426#1 -32426#2-AddedOnRampEdge -32426#2 -32426#2-AddedOffRampEdge -31052 -30692 -31156#1 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -30668#10 -30668#10-AddedOffRampEdge -30668#11 -30668#12-AddedOnRampEdge -30668#12 -30668#12-AddedOffRampEdge -30668#13 -30668#14-AddedOnRampEdge -30668#14 -30668#14-AddedOffRampEdge -30668#15 -30668#16-AddedOnRampEdge -30668#16"/>
+	</vehicle>
+	<vehicle id="3BEtoLU.29" type="passenger1" depart="597.00" departSpeed="13.89">
+		<route edges="-30668#0 -30668#0-AddedOffRampEdge -30668#1 -30668#2-AddedOnRampEdge -30668#2 -30668#2-AddedOffRampEdge -30668#3 -30668#4-AddedOnRampEdge -30668#4 -30668#4-AddedOffRampEdge -30668#5 -30668#6-AddedOnRampEdge -30668#6 -30668#6-AddedOffRampEdge -30668#7 -30668#7-AddedOffRampEdge -30668#8 -30668#9-AddedOnRampEdge -30668#9 -30668#9-AddedOffRampEdge -31432 -32400#5-AddedOnRampEdge -32400#5"/>
+	</vehicle>
+</routes>
